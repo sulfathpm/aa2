@@ -1,0 +1,129 @@
+/* contact.css */
+
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover, .navbar a.customize-button {
+    background-color: palevioletred;
+    border-radius: 20px;
+    
+}
+.customize-button {
+    background-color: palevioletred;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form table {
+    width: 100%;
+}
+
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-form button:hover {
+    background-color: #d1477a;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+.customize-button{
+    background-color: #d1477a !important;
+}
+.customize-button:hover{
+    color: black !important;
+    background-color: rgb(247, 144, 178)!important;
+}
