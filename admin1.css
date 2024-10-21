@@ -1,0 +1,148 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefefe; /* Light pastel background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffb3b3; /* Pastel pink */
+    color: #5c4f4f;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #ffcccb; /* Light pastel red */
+    color: #413636;
+    height: 100vh;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: width 0.3s;
+}
+
+.sidebar a {
+    color: #5c4c4c;
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #ff9999; /* Softer pastel red */
+}
+
+.main-content {
+    margin-left: 240px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #fff; /* White background for cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #ff4d4d; /* Medium pastel pink */
+}
+
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.card table th,
+.card table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.card table th {
+    background-color: #ffe6e6; /* Light pastel pink */
+    color: #333;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffe6e6; /* Light pastel pink */
+    color: #333;
+}
+
+button {
+    padding: 8px 15px;
+    margin-right: 5px;
+    border: none;
+    color: white; /* White text for contrast */
+    border-radius: 4px;
+    background-color: #ff7f7f; /* Soft pastel red */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.view_history{
+    padding: 8px 15px;
+    margin-right: 5px;
+    border: none;
+    color: white; /* White text for contrast */
+    border-radius: 4px;
+    background-color: #ff7f7f; /* Soft pastel red */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.view_history:hover{
+    background-color: #ff4d4d; /* Medium pastel pink on hover */
+    transform: translateY(-2px);
+}
+
+button:hover {
+    background-color: #ff4d4d; /* Medium pastel pink on hover */
+    transform: translateY(-2px);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
